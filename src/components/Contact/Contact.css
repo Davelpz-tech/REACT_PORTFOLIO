@@ -111,3 +111,45 @@ button:hover {
     background-color: var(--primary-hover);
     transform: scale(0.95);
 }
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+        flex-direction: column;
+        padding: 0 50px;
+        height: 100%;
+    }
+
+    .c-title {
+        font-size: 50px;
+    }
+
+    .c-info-item {
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .c-description {
+        display: none;
+    }
+
+    form {
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    button {
+        margin-top: 10px;   
+    }
+
+    .map-container {
+        display: none;
+    }
+}

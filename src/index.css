@@ -1,6 +1,6 @@
 :root {
-    --primary-clr: #59b256;
-    --primary-hover: #468c43;
+    --primary-clr: #6556b2;
+    --primary-hover: #482886;
     --secondary-clr: #555;
 }
 
@@ -14,4 +14,13 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 60%);
     z-index: 8999;
+}
+
+.line {
+    border-bottom: 10px solid var(--primary-clr);
+    width: 25%;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

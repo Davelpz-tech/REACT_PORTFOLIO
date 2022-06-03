@@ -118,3 +118,32 @@
     background-color: var(--primary-hover);
     transform: scale(0.95);
 }
+
+@media screen and (max-width: 480px) {
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-name {
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-title-wrapper {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-left-wrapper {
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .hero-description {
+        display: none;
+    }
+}

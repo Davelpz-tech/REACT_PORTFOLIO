@@ -4,6 +4,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: rgb(240, 240, 240);
 }
 
 .about-left {
@@ -38,6 +39,7 @@
 
 .about-description {
     font-weight: 300;
+    width: 90%;
 }
 
 .about-cert {
@@ -132,4 +134,30 @@
 .a-modal-wrapper button {
     margin-top: 1rem;
     background-color: var(--primary-hover);
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        height: max-content;
+    }
+
+    .about-left {
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .about-card {
+        height: 30vh;
+    }
+
+    .about-card.bg, .about-cert{
+        display: none;
+    }
+
+    .about-right {
+        padding-bottom: 1rem;
+    }
 }

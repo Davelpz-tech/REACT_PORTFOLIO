@@ -1,7 +1,12 @@
 import "./About.css"
 import cert from "../../img/certificate.jpg"
+import { useState } from "react"
+import AboutModal from "../Modals/AboutModal"
 
 export const About = () => {
+
+    const [openModal, setOpenModal] = useState(false)
+    
   return (
     <div className="about">
         <div className="about-left">
@@ -20,7 +25,8 @@ export const About = () => {
             <p className="about-description">
                 I've been working in the tech industry since 2019! I started my employment with a Web Hosting Company building websites mainly for small businesses and educational institutions. Unfortunately my company was sold and I lost the position I loved so much. But that didn't stop me from achieving my dreams...
             </p>
-            <button className="about-btn">Read More</button>
+            <button className="about-btn" onClick={() => {setOpenModal(true)}}>Read More</button>
+            {openModal && <AboutModal closeModal={setOpenModal}/>}
             <div className="about-cert">
                 <img src={cert} alt="" className="about-cert-img" />
                 <div className="about-cert-text">
@@ -29,21 +35,6 @@ export const About = () => {
                 </div>
             </div>
         </div>
-        <div className="a-modal">
-            <div className="a-modal-wrapper hide">
-                <div className="a-modal-text">
-                    <h1 className="a-modal-title">My Story...</h1>
-                    <p className="a-modal-para">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolorem doloremque exercitationem dolorum sit. Voluptatem molestiae facere assumenda optio, magnam libero architecto id voluptas, a rerum amet veritatis sit inventore.
-                        Nostrum similique officiis facere voluptate quibusdam aliquam alias dicta aspernatur laudantium numquam rem amet quisquam id modi ipsam corrupti architecto beatae, aliquid minima autem praesentium enim quia distinctio magni! Aliquam!
-                        Ipsum asperiores dolorum laudantium assumenda officia harum adipisci nisi doloribus minus rem? Repellat temporibus ducimus quam? Quod a sunt, ipsam maxime doloribus assumenda dolores distinctio dolore, atque libero perferendis quo!
-                        Dicta fugit nobis hic qui eveniet tenetur provident. Deleniti totam similique repudiandae. Similique, molestias tempora! Accusamus ut facilis atque corrupti corporis facere ipsum eius vel, maiores est accusantium officia velit!
-                    </p>
-                </div>
-                <button>close</button>
-            </div>
-        </div>
-        <div className="screen-blur hide"></div>
     </div>
   )
 }

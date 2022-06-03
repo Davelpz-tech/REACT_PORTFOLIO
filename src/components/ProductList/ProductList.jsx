@@ -6,9 +6,11 @@ const ProductList = () => {
   return (
     <div className="pl">
         <div className="pl-text">
-            <h1 className="pl-title">Previous Works - Title</h1>
+            <h1 className="pl-title">Previous Works</h1>
+            <div className="line"></div>
             <p className="pl-description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti alias quaerat, quibusdam quisquam accusamus nisi laborum vel iure consequatur, magnam veritatis ea reprehenderit, odio fuga? Incidunt cumque vel iure itaque.
+                Here are a few of my Favorite Projects I've had the awesome opportunity to work on
+                <br/>I hope you'll love them as much as I do!
             </p>
         </div>
         <div className="pl-list">
