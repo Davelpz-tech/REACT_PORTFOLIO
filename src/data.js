@@ -16,6 +16,6 @@ export const products = [
     {
         id: 3,
         img: fg,
-        link: "https://github.com/jlentz17/food-guru"
+        link: "https://secure-forest-24217.herokuapp.com/"
     }
 ]
