@@ -32,7 +32,7 @@ const Contact = () => {
                     </div>
                     <div className="map-container">
                         <h1 className="map-title">Based in Phoenix Arizona</h1>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.6723330886693!2d-112.14468093883116!3d33.535903880684224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b1407230946e1%3A0x1d7cb15ebaa53d5a!2sLa%20Pradera%20Park!5e0!3m2!1sen!2sus!4v1654215259376!5m2!1sen!2sus" className="gmap" title="myGoogleMap" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212671.21697316025!2d-112.26513234281516!3d33.60562191697499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12ed50a179cb%3A0x8c69c7f8354a1bac!2sPhoenix%2C%20AZ!5e0!3m2!1sen!2sus!4v1658375997444!5m2!1sen!2sus" className="gmap" title="myGoogleMap" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div className="tributes">
                         <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>

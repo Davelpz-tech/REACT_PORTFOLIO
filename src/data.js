@@ -1,4 +1,4 @@
-import jsq from './img/javascript-quiz-answer-correct.PNG'
+import wc from './img/wordle-clone.png'
 import fg from './img/foodguru.png'
 import hcg from './img/hcg-mock.PNG'
 
@@ -10,8 +10,8 @@ export const products = [
     },
     {
         id: 2,
-        img: jsq,
-        link: "https://davelpz-tech.github.io/JavaScript-Code-Quiz/"
+        img: wc,
+        link: "https://davelpz-tech.github.io/wordle-clone/"
     },
     {
         id: 3,
